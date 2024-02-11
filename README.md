@@ -123,20 +123,20 @@ You can pass additional flags to customize the schematic. For example, if you wa
 ng add ngx-tailwind --tailwindVersion 3.0.8
 ```
 
-All available flags:
+ ### All available flags
 
-| Flag                   | Description                                                    | Type            | Default                                               |
-| ---------------------- | -------------------------------------------------------------- | --------------- | ----------------------------------------------------- | --- |
+| Flag | Description | Type | Default |
+|------------------------|----------------------------------------------------------------|-----------------|-------------------------------------------------------|
 | `autoprefixerVersion`  | The autoprefixer version to be installed.                      | string          | `^10.4.1`                                             |
-| `cssFormat`            | The file extension or preprocessor to use for style files.     | `css` \| `scss` | `css`                                                 | ‚   |
+| `cssFormat`            | The file extension or preprocessor to use for style files.     | `css` \| `scss` | `css`                                                 |
 | `project`              | The project to initialize with Tailwind CSS.                   | `string`        | **First** Angular project                             |
-| `postcssVersion`       | The postcss version to be installed.                           | `string`        | `^8.4.5`                                              |     |
+| `postcssVersion`       | The postcss version to be installed.                           | `string`        | `^8.4.5`                                              |
 | `tailwindVersion`      | The Tailwind version to be installed.                          | `string`        | `^3.0.8`                                              |
 | `disableCrossPlatform` | Set the build:prod script to be only UNIX compatible.          | `boolean`       | `false`                                               |
 | `crossEnvVersion`      | The cross-env version to be installed.                         | `string`        | `^7.0.3`                                              |
 | `tailwindPlugins`      | @tailwindcss plugins installed and added to tailwind.config.js | `string[]`      | [`aspect-ratio`, `forms`, `line-clamp`, `typography`] |
 
-Advanced usage
+### Advanced usage
 
 ```bash
 ng add ngx-tailwind --cssFormat scss --tailwindVersion 3.0.8 --postcssVersion 8.4.5
